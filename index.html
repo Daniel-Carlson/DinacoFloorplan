@@ -11,6 +11,7 @@
       <a-assets>
         
         <a-asset-item id="floorplan-obj" src="rough_draft.obj"></a-asset-item>
+        <a-asset-item id="floorplan" src="rough_draft.glb" ></a-asset-item>
         
       </a-assets>
 
@@ -21,7 +22,8 @@
 
 
 
-        <a-obj-model src="floorplan-obj" material="color: black" position="0 .5 0"  scale=".10 .10 .10" rotation="0 -90 0"></a-obj-model>
+        <a-obj-model src="floorplan-obj" mtl="#bed-mtl" position="-8.2 1.26 -16.25"  scale="1 1 1" rotation="0 -90 0"></a-obj-model>
+        <a-entity gltf-model="floorplan" rotation="0 0 0" position="0 0 0"  scale=".1 .1 .1" ></a-entity>
 
 
       </a-marker>
